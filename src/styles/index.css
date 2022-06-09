@@ -1,12 +1,32 @@
+.container {
+    width: 800px;
+    height: 100px;
+    color: rgba(0, 0, 0, 0.5);
+}
 
-/* 
+.header {
+    margin-left: 275px;
+    font-size: 350%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container-sm {
+    width: 800px;
 
-*/
+}
+
+.home {
+    margin: 100px;
+    padding: 150px;
+    background-color: rgba(156, 156, 160, 0.098);
+    box-shadow: 10px 5px 5px 2px rgba(138, 138, 139, 0.493);
+
+}
+
+.list-delete,
+.intro {
+    background-color: rgba(128, 128, 128, 0.031);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.397);
+}
