@@ -1,32 +1,19 @@
-.container {
-    width: 800px;
-    height: 100px;
-    color: rgba(0, 0, 0, 0.5);
-}
-
 .header {
     margin-left: 275px;
     font-size: 350%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container-sm {
     width: 800px;
-
-}
-
-.home {
-    margin: 100px;
-    padding: 150px;
-    background-color: rgba(156, 156, 160, 0.098);
+    background-color: rgba(1, 1, 2, 0.098);
     box-shadow: 10px 5px 5px 2px rgba(138, 138, 139, 0.493);
-
+    margin-top: 80px;
 }
 
-.list-delete,
-.intro {
-    background-color: rgba(128, 128, 128, 0.031);
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(128, 128, 128, 0.397);
+.card-body {
+    margin: 80px;
+    margin-top: 0px;
+    padding: 80px;
+    padding-top: 5px;
 }
